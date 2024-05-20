@@ -10,7 +10,7 @@ import java.util.Arrays;
  */
 public class insertionsort {
          public static void main (String[] args) {
-        int[] array = {64, 34, 25, 12, 22, 11, 90};
+        int[] array = {64, 34, 25, 12, 22, 13, 90};
         System.out.println("Original array: " + Arrays.toString (array));
         insertionSort(array);
         System.out.println("Sorted array:" + Arrays.toString (array));
